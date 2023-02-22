@@ -1,7 +1,7 @@
 import socket
 # get all packets
-ETH_P_ALL = 0x03
-s = socket.socket(socket.AF_INET, socket.SOCK_RAW, socket.htons(ETH_P_ALL))
+# ETH_P_ALL = 0x03
+# s = socket.socket(socket.AF_INET, socket.SOCK_RAW, socket.htons(ETH_P_ALL))
 
 # to take apart bytes received
 import struct
